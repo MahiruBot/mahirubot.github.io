@@ -1,0 +1,176 @@
+site_name: Mahiru Documentation
+theme:
+  name: material
+  favicon: assets/logo.png
+  logo: assets/logo2.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: fontawesome/solid/moon
+        name: Switch to dark mode
+      primary: custom
+      accent: custom
+    - scheme: slate 
+      toggle:
+        icon: fontawesome/solid/sun
+        name: Switch to light mode    
+      primary: custom
+      accent: custom
+  icon:
+    tag:
+      image: octicons/file-media-24
+      изображение: octicons/file-media-24
+      genshin: material/gamepad-variant-outline
+      геншин: material/gamepad-variant-outline
+      nsfw: octicons/circle-slash-24
+      version_1_0_0: octicons/tag-24
+      версия_1_0_0: octicons/tag-24
+      command: octicons/code-24
+      команда: octicons/code-24
+      inline: octicons/paperclip-24
+      встроенная: octicons/paperclip-24
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/MahiruShiinaBot
+  tags:
+    Image: image
+    Изображение: изображение
+    NSFW: nsfw
+    Геншин: геншин
+    Genshin: genshin
+    Version 1.0.0: version_1_0_0
+    Версия 1.0.0: версия_1_0_0
+    Command: command
+    Команда: команда
+    Inline command: inline
+    Встроенная команда: встроенная
+
+extra_css:
+  - stylesheets/custom.css
+
+plugins:
+  - tags
+  - search:
+      lang: 
+        - en
+        - ru
+  - i18n:
+      default_language: en
+      docs_structure: folder
+      languages:
+        en:
+          name: English
+          site_name: Mahiru Documentation
+        ru: 
+          name: Русский
+          site_name: Документация Махиру
+      nav_translations:
+        en:
+          Home: Home
+          Pages: Pages
+          Common: Common
+          Genshin: Genshin
+          Sections: Sections
+          Settings: Settings
+          Commands: Commands
+          Dashboard: Dashboard
+          Commands list: Commands list
+          Game Integrations: Game Integrations
+        ru:
+          Home: Главная
+          Pages: Страницы
+          Common: Обычные
+          Genshin: Геншин
+          Sections: Секции
+          Commands: Команды
+          Settings: Настройки
+          Commands list: Список команд
+          Dashboard: Панель управления
+          Game Integrations: Игровые интеграции
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - index.md
+  - Commands:
+    - commands/default-commands.md
+    - commands/inline-commands.md
+    - Commands list:
+      - Common:
+        - commands/commands-list/common/anime.md
+        - commands/commands-list/common/animelist.md
+        - commands/commands-list/common/end.md
+        - commands/commands-list/common/game.md
+        - commands/commands-list/common/gif.md
+        - commands/commands-list/common/gpt.md
+        - commands/commands-list/common/help.md
+        - commands/commands-list/common/imgtotext.md
+        - commands/commands-list/common/manga.md
+        - commands/commands-list/common/mangalist.md
+        - commands/commands-list/common/nsfw.md
+        - commands/commands-list/common/song.md
+        - commands/commands-list/common/video.md
+        - commands/commands-list/common/waifu.md
+        - commands/commands-list/common/waifunsfw.md
+      - Genshin:
+        - commands/commands-list/genshin/abyss.md
+        - commands/commands-list/genshin/check.md
+        - commands/commands-list/genshin/exploration.md
+        - commands/commands-list/genshin/notes.md
+        - commands/commands-list/genshin/profile.md
+        - commands/commands-list/genshin/redeem.md
+        - commands/commands-list/genshin/tcg.md
+        - commands/commands-list/genshin/teapot.md
+  - Dashboard:
+    - dashboard/introduction.md
+    - Pages:
+      - Sections:
+        - dashboard/pages/sections/profile.md
+        - dashboard/pages/sections/anime-lists.md
+        - dashboard/pages/sections/manga-lists.md
+      - Game Integrations:
+        - dashboard/pages/game-integrations/genshin.md
+      - Settings:
+        - Commands:
+          - dashboard/pages/settings/commands/gpt.md
+        - dashboard/pages/settings/language.md
+        - dashboard/pages/settings/nsfw-content.md
+        - dashboard/pages/settings/for-developers.md
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/jokelbaf"  target="_blank" rel="noopener">JokelBaf</a>
