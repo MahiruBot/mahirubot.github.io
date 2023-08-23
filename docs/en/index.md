@@ -1,3 +1,7 @@
+---
+description: "Documentation for Mahiru - your cute Telegram helper!"
+---
+
 # Home
 
 ![](assets/logo2.png)
