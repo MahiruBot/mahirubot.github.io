@@ -122,6 +122,7 @@ plugins:
             Game Integrations: Игровые интеграции
   - git-revision-date-localized:
       enable_creation_date: true
+      enabled: false
   - social:
       cards_layout_options:
         background_color: "#e6bba7"
@@ -194,6 +195,8 @@ nav:
         - dashboard/pages/settings/language.md
         - dashboard/pages/settings/nsfw-content.md
         - dashboard/pages/settings/for-developers.md
+  - API:
+    - api/genshin-images.md
 
 copyright: |
   &copy; 2023 <a href="https://github.com/jokelbaf"  target="_blank" rel="noopener">JokelBaf</a>
