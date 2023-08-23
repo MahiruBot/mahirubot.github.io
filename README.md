@@ -64,9 +64,9 @@ Short description of what the PR contains.
 - **In PR description:**
 Explain exactly what and why you fixed/added.
 
-### Adding localization
+### Adding a localization
 
-In case you want to add a new localization, copy `en` folder in the `/docs` and name it according to the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). Then localize every file and don't forget to update nav localizations in mkdocs.yml as well.
+In case you want to add a new localization, copy `en` folder in the `/docs` and name it according to the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). Then localize every file and don't forget to update configuration in `mkdocs.yml` as well.
 
 Here is a list of localizations Mahiru may need:
 
@@ -127,9 +127,9 @@ Here is a list of localizations Mahiru may need:
 | Swedish                    | sv           |
 | Tagalog                    | tl           |
 | Telugu                     | te           |
-| 🇹🇭 Thai                       | th           |
-| 🇹🇷 Turkish                    | tr           |
-| 🇺🇦 Ukrainian                  | uk           |
-| 🇵🇰 Urdu                       | ur           |
-| 🇺🇿 Uzbek                      | uz           |
-| 🇻🇳 Vietnamese                 | vi           |
+| Thai                       | th           |
+| Turkish                    | tr           |
+| Ukrainian                  | uk           |
+| Urdu                       | ur           |
+| Uzbek                      | uz           |
+| Vietnamese                 | vi           |
