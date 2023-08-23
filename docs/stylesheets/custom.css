@@ -25,6 +25,11 @@ body[data-md-color-scheme="default"] .md-tabs {
 body[data-md-color-scheme="default"] .md-search__form:hover {
     background-color: rgba(150, 127, 105, 0.5)
 }
+body[data-md-color-scheme="slate"] .md-nav--primary .md-nav__title[for=__drawer] {
+    background-color: rgba(110, 110, 110, 0.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
 
 body[data-md-color-scheme="slate"] {
     --md-default-bg-color: #303030;

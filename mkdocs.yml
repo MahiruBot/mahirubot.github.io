@@ -78,14 +78,14 @@ plugins:
           site_name: Mahiru Documentation
           build: true
           default: true
-          # theme:
-          #   palette:
-          #     - scheme: default
-          #       toggle:
-          #         name: Switch to dark mode
-          #     - scheme: slate 
-          #       toggle:
-          #         name: Switch to light mode
+          theme:
+            palette:
+              - scheme: default
+                toggle:
+                  name: Switch to dark mode
+              - scheme: slate 
+                toggle:
+                  name: Switch to light mode
           nav_translations:
             Home: Home
             Pages: Pages
@@ -101,14 +101,14 @@ plugins:
           name: Русский
           site_name: Документация Махиру
           build: true
-          # theme:
-          #   palette:
-          #     - scheme: default
-          #       toggle:
-          #         name: Включить тёмную тему
-          #     - scheme: slate 
-          #       toggle:
-          #         name: Включить светлую тему
+          theme:
+            palette:
+              - scheme: default
+                toggle:
+                  name: Включить тёмную тему
+              - scheme: slate 
+                toggle:
+                  name: Включить светлую тему
           nav_translations:
             Home: Главная
             Pages: Страницы
