@@ -1,8 +1,10 @@
 site_name: Mahiru Documentation
+site_url: https://docs.mahiru.one
+site_description: Meet Mahiru, cutest Telegram bot! With versatile features, Mahiru can brighten up your day and assist in daily tasks.
 theme:
   name: material
   favicon: assets/logo.png
-  logo: assets/logo2.png
+  logo: assets/logo.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -57,6 +59,7 @@ extra:
     Команда: команда
     Inline command: inline
     Встроенная команда: встроенная
+  generator: false
 
 extra_css:
   - stylesheets/custom.css
@@ -68,43 +71,63 @@ plugins:
         - en
         - ru
   - i18n:
-      default_language: en
       docs_structure: folder
       languages:
-        en:
+        - locale: en
           name: English
           site_name: Mahiru Documentation
-        ru: 
+          build: true
+          default: true
+          # theme:
+          #   palette:
+          #     - scheme: default
+          #       toggle:
+          #         name: Switch to dark mode
+          #     - scheme: slate 
+          #       toggle:
+          #         name: Switch to light mode
+          nav_translations:
+            Home: Home
+            Pages: Pages
+            Common: Common
+            Genshin: Genshin
+            Sections: Sections
+            Settings: Settings
+            Commands: Commands
+            Dashboard: Dashboard
+            Commands list: Commands list
+            Game Integrations: Game Integrations
+        - locale: ru 
           name: Русский
           site_name: Документация Махиру
-      nav_translations:
-        en:
-          Home: Home
-          Pages: Pages
-          Common: Common
-          Genshin: Genshin
-          Sections: Sections
-          Settings: Settings
-          Commands: Commands
-          Dashboard: Dashboard
-          Commands list: Commands list
-          Game Integrations: Game Integrations
-        ru:
-          Home: Главная
-          Pages: Страницы
-          Common: Обычные
-          Genshin: Геншин
-          Sections: Секции
-          Commands: Команды
-          Settings: Настройки
-          Commands list: Список команд
-          Dashboard: Панель управления
-          Game Integrations: Игровые интеграции
+          build: true
+          # theme:
+          #   palette:
+          #     - scheme: default
+          #       toggle:
+          #         name: Включить тёмную тему
+          #     - scheme: slate 
+          #       toggle:
+          #         name: Включить светлую тему
+          nav_translations:
+            Home: Главная
+            Pages: Страницы
+            Common: Обычные
+            Genshin: Геншин
+            Sections: Секции
+            Commands: Команды
+            Settings: Настройки
+            Commands list: Список команд
+            Dashboard: Панель управления
+            Game Integrations: Игровые интеграции
   - git-revision-date-localized:
       enable_creation_date: true
-      enabled: true
+  - social:
+      cards_layout_options:
+        background_color: "#e6bba7"
 
 markdown_extensions:
+  - meta
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
