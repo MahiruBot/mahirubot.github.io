@@ -7,7 +7,7 @@ tags:
   - Version 1.0.0
 ---
 
-# Exploration
+# Characters
 
 View your or someone's characters.
 
