@@ -37,7 +37,7 @@ Some methods always require authentication. Read about it in [Privacy and Securi
 
 ## Query Parameters
 
-Query parameters can help you settings for the image you want to receive.
+Query parameters can help you configure the image you want to receive.
 
 ### Default Parameters
 
