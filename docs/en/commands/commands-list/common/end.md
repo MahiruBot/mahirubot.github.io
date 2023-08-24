@@ -1,10 +1,11 @@
 ---
+title: «End» command
 tags:
   - Command
   - Version 1.0.0
 ---
 
-# End
+# «End» command
 
 End conversation with ChatGPT.
 

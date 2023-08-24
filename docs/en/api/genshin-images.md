@@ -1,4 +1,4 @@
-# Genshin Images
+# Genshin Images API
 
 Mahiru provides you with a cool images API which you can use after connecting your Genshin account. It allows you to create direct links to Genshin images which are updated in real-time.
 

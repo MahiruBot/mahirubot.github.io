@@ -1,11 +1,12 @@
 ---
+title: «Game» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# Game
+# «Game» command
 
 Search game by name. Search is performed using [rawg.io](https://rawg.io) API.
 

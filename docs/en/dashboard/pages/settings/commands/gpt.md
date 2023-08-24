@@ -1,4 +1,12 @@
-# GPT
+---
+title: GPT Settings
+tags:
+  - Dashboard
+  - Settings
+  - Version 1.0.0
+---
+
+# GPT Settings
 
 Customize arguments for [`/gpt`](../../../../commands/commands-list/common/gpt.md) command. This allows you to avoid passing them every time you run the command. You can still override arguments configured here by passing them in the command. For example, if temperature in the Dashboard is set to `0.5` and you do `/gpt --msg: whatever --temperature: 1`, the temperature value used be Mahiru is `1`.
 

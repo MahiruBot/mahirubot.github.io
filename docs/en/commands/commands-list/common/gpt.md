@@ -1,11 +1,12 @@
 ---
+title: «GPT» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# GPT
+# «GPT» command
 
 Ask ChatGPT a question or even make a conversation with one of the most popular OpenAI's text models!
 

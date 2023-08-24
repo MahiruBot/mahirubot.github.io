@@ -1,4 +1,13 @@
-# Genshin
+---
+title: Genshin Integration
+tags:
+  - Dashboard
+  - Genshin
+  - Settings
+  - Version 1.0.0
+---
+
+# Genshin Integration
 
 Genshin Integration allows you to connect your game account and use it with Mahiru.
 

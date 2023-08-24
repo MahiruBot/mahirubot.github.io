@@ -1,4 +1,5 @@
 ---
+title: «Genshin TCG» command
 tags:
   - Command
   - Inline command
@@ -7,7 +8,7 @@ tags:
   - Version 1.0.0
 ---
 
-# TCG
+# «Genshin TCG» command
 
 View your or someone's TCG statistics.
 

@@ -1,4 +1,5 @@
 ---
+title: «Genshin Teapot» command
 tags:
   - Command
   - Inline command
@@ -7,7 +8,7 @@ tags:
   - Version 1.0.0
 ---
 
-# Teapot
+# «Genshin Teapot» command
 
 View your or someone's Teapot statistics.
 

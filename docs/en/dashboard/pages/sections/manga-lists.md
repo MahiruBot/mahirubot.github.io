@@ -1,4 +1,12 @@
-# Manga Lists
+---
+title: Manga Lists section
+tags:
+  - Dashboard
+  - Sections
+  - Version 1.0.0
+---
+
+# Manga Lists section
 
 Manage your manga lists. You can change items order, remove them or clear the entire list.
 

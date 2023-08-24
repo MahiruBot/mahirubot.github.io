@@ -1,4 +1,12 @@
-# Anime Lists
+---
+title: Anime Lists section
+tags:
+  - Dashboard
+  - Sections
+  - Version 1.0.0
+---
+
+# Anime Lists section
 
 Manage your anime lists. You can change items order, remove them or clear the entire list.
 

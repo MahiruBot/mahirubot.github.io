@@ -1,4 +1,12 @@
-# Profile
+---
+title: Profile section
+tags:
+  - Dashboard
+  - Sections
+  - Version 1.0.0
+---
+
+# Profile section
 
 View your statistics including amount of commands/buttons/inline commands used for all time and your usage of the bot in past 7 days. The delay in updating data may be up to 10 minutes. 
 

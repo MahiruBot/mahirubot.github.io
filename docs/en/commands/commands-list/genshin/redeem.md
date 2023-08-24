@@ -1,4 +1,5 @@
 ---
+title: «Genshin Redeem» command
 tags:
   - Command
   - Inline command
@@ -6,7 +7,7 @@ tags:
   - Version 1.0.0
 ---
 
-# Redeem
+# «Genshin Redeem» command
 
 Redeem Genshin code on your game account.
 

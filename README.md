@@ -29,6 +29,7 @@ Hello and welcome! We're thrilled to have you here. Within these pages, you'll u
       - waifunsfw.md
     * genshin:
       - abyss.md
+      - characters.md
       - check.md
       - exploration.md
       - notes.md
@@ -51,6 +52,8 @@ Hello and welcome! We're thrilled to have you here. Within these pages, you'll u
       - language.md
       - nsfw-content.md
       - for-developers.md
++ API:
+  - genshin-images.md
 
 ## Contribution
 

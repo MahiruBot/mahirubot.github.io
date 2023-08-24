@@ -1,11 +1,12 @@
 ---
+title: «Song» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# Song
+# «Song» command
 
 Search song by name. For any language YouTube Music API is used.
 

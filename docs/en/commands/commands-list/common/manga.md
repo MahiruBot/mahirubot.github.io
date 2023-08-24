@@ -1,11 +1,12 @@
 ---
+title: «Manga» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# Manga
+# «Manga» command
 
 Search manga by name. If your language is set to **Russian**, [shikimori.me](https://shikimori.me) API will be used, for **English** — [kitsu.io](https://kitsu.io).
 

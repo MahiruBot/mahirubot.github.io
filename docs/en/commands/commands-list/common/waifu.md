@@ -1,11 +1,12 @@
 ---
+title: «Waifu» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# Waifu
+# «Waifu» command
 
 Get random waifu pic. Mahiru is using [waifu.im](https://waifu.im) API for this command.
 

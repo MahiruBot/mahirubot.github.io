@@ -1,11 +1,12 @@
 ---
+title: «Video» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# Video
+# «Video» command
 
 Send video using it's url. This command is useful if you, for example, don't want to download the video on your device or want to download TikTok video without a watermark.
 

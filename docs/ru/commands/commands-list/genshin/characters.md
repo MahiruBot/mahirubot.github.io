@@ -1,4 +1,5 @@
 ---
+title: Команда «Genshin Characters»
 tags:
   - Команда
   - Встроенная команда
@@ -7,7 +8,7 @@ tags:
   - Версия 1.0.0
 ---
 
-# Characters
+# Команда «Genshin Characters»
 
 Просмотр персонажей игрока.
 
