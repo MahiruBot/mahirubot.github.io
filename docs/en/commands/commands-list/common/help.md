@@ -1,11 +1,12 @@
 ---
+title: «Help» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# Help
+# «Help» command
 
 View info about any command that Mahiru has.
 

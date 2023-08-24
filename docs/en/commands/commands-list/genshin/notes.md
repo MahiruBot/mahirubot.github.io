@@ -1,4 +1,5 @@
 ---
+title: «Genshin Notes» command
 tags:
   - Command
   - Inline command
@@ -7,7 +8,7 @@ tags:
   - Version 1.0.0
 ---
 
-# Notes
+# «Genshin Notes» command
 
 View your Genshin realtime notes.
 

@@ -1,4 +1,5 @@
 ---
+title: Команда «Genshin Exploration»
 tags:
   - Команда
   - Встроенная команда
@@ -7,7 +8,7 @@ tags:
   - Версия 1.0.0
 ---
 
-# Exploration
+# Команда «Genshin Exploration»
 
 Просмотр прогресса исследования игрового мира.
 

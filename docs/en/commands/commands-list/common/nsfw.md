@@ -1,4 +1,5 @@
 ---
+title: «NSFW» command
 tags:
   - Command
   - Inline command
@@ -6,7 +7,7 @@ tags:
   - Version 1.0.0
 ---
 
-# Nsfw
+# «NSFW» command
 
 ???+ danger "NSFW Warning"
 

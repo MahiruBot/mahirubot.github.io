@@ -1,4 +1,5 @@
 ---
+title: «Genshin Check» command
 tags:
   - Command
   - Inline command
@@ -6,7 +7,7 @@ tags:
   - Version 1.0.0
 ---
 
-# Check
+# «Genshin Check» command
 
 Claim Genshin daily check-in.
 

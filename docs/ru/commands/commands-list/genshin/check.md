@@ -1,4 +1,5 @@
 ---
+title: Команда «Genshin Check»
 tags:
   - Команда
   - Встроенная команда
@@ -6,7 +7,7 @@ tags:
   - Версия 1.0.0
 ---
 
-# Check
+# Команда «Genshin Check»
 
 Собрать отметку на HoYolab.
 

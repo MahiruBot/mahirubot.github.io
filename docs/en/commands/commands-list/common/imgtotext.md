@@ -1,11 +1,12 @@
 ---
+title: «Imgtotext» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# Imgtotext
+# «Imgtotext» command
 
 Read any text from any image and send it to the chat. Works good in combination with `/gpt` command when you need to ask something about text in an image.
 

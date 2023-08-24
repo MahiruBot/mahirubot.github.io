@@ -6,6 +6,7 @@ theme:
   favicon: assets/logo.png
   logo: assets/logo.png
   features:
+    - navigation.footer
     - navigation.tabs
     - navigation.sections
     - toc.integrate
@@ -31,6 +32,12 @@ theme:
       accent: custom
   icon:
     tag:
+      sections: octicons/rows-24
+      секции: octicons/rows-24
+      dashboard: octicons/browser-24
+      панель: octicons/browser-24
+      настройки: octicons/gear-24
+      settings: octicons/gear-24
       image: octicons/file-media-24
       изображение: octicons/file-media-24
       genshin: material/gamepad-variant-outline
@@ -47,7 +54,15 @@ extra:
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/MahiruShiinaBot
+    - icon: fontawesome/brands/github 
+      link: https://github.com/MahiruBot/mahirubot.github.io
   tags:
+    Секции: секции
+    Sections: sections
+    Настройки: настройки
+    Settings: settings
+    Панель управления: панель
+    Dashboard: dashboard
     Image: image
     Изображение: изображение
     NSFW: nsfw
@@ -90,14 +105,22 @@ plugins:
           nav_translations:
             Home: Home
             Pages: Pages
-            Common: Common
+            Profile: Profile
             Genshin: Genshin
+            Language: Language
             Sections: Sections
             Settings: Settings
             Commands: Commands
             Dashboard: Dashboard
+            Anime lists: Anime Lists
+            Manga lists: Manga Lists
+            NSFW content: NSFW Content
             Commands list: Commands list
-            Game Integrations: Game Integrations
+            For developers: For Developers
+            Common commands: Common Commands
+            Genshin commands: Genshin Commands
+            Game integrations: Game Integrations
+            Genshin Integration: Genshin Integration 
         - locale: ru 
           name: Русский
           site_name: Документация Махиру
@@ -114,17 +137,24 @@ plugins:
           nav_translations:
             Home: Главная
             Pages: Страницы
-            Common: Обычные
+            Profile: Профиль
             Genshin: Геншин
+            Language: Язык  
             Sections: Секции
-            Commands: Команды
             Settings: Настройки
-            Commands list: Список команд
+            Commands: Команды
             Dashboard: Панель управления
+            Anime Lists: Списки аниме
+            Manga Lists: Списки манги
+            NSFW Content: Откровенный контент
+            Commands list: Список команд
+            For Developers: Для разработчиков
+            Common commands: Обычные команды
+            Genshin commands: Геншин команды
             Game Integrations: Игровые интеграции
+            Genshin Integration: Интеграция Геншина
   - git-revision-date-localized:
       enable_creation_date: true
-      enabled: false
   - social:
       cards_layout_options:
         background_color: "#e6bba7"
@@ -157,47 +187,47 @@ nav:
     - commands/default-commands.md
     - commands/inline-commands.md
     - Commands list:
-      - Common:
-        - commands/commands-list/common/anime.md
-        - commands/commands-list/common/animelist.md
-        - commands/commands-list/common/end.md
-        - commands/commands-list/common/game.md
-        - commands/commands-list/common/gif.md
-        - commands/commands-list/common/gpt.md
-        - commands/commands-list/common/help.md
-        - commands/commands-list/common/imgtotext.md
-        - commands/commands-list/common/manga.md
-        - commands/commands-list/common/mangalist.md
-        - commands/commands-list/common/nsfw.md
-        - commands/commands-list/common/song.md
-        - commands/commands-list/common/video.md
-        - commands/commands-list/common/waifu.md
-        - commands/commands-list/common/waifunsfw.md
-      - Genshin:
-        - commands/commands-list/genshin/abyss.md
-        - commands/commands-list/genshin/check.md
-        - commands/commands-list/genshin/exploration.md
-        - commands/commands-list/genshin/characters.md
-        - commands/commands-list/genshin/notes.md
-        - commands/commands-list/genshin/profile.md
-        - commands/commands-list/genshin/redeem.md
-        - commands/commands-list/genshin/tcg.md
-        - commands/commands-list/genshin/teapot.md
+      - Common commands:
+        - /anime: commands/commands-list/common/anime.md
+        - /animelist: commands/commands-list/common/animelist.md
+        - /end: commands/commands-list/common/end.md
+        - /game: commands/commands-list/common/game.md
+        - /gif: commands/commands-list/common/gif.md
+        - /gpt: commands/commands-list/common/gpt.md
+        - /help: commands/commands-list/common/help.md
+        - /imgtotext: commands/commands-list/common/imgtotext.md
+        - /manga: commands/commands-list/common/manga.md
+        - /mangalist: commands/commands-list/common/mangalist.md
+        - /nsfw: commands/commands-list/common/nsfw.md
+        - /song: commands/commands-list/common/song.md
+        - /video: commands/commands-list/common/video.md
+        - /waifu: commands/commands-list/common/waifu.md
+        - /waifunsfw: commands/commands-list/common/waifunsfw.md
+      - Genshin commands:
+        - /genshin_abyss: commands/commands-list/genshin/abyss.md
+        - /genshin_check: commands/commands-list/genshin/check.md
+        - /genshin_exploration: commands/commands-list/genshin/exploration.md
+        - /genshin_characters: commands/commands-list/genshin/characters.md
+        - /genshin_notes: commands/commands-list/genshin/notes.md
+        - /genshin_profile: commands/commands-list/genshin/profile.md
+        - /genshin_redeem: commands/commands-list/genshin/redeem.md
+        - /genshin_tcg: commands/commands-list/genshin/tcg.md
+        - /genshin_teapot: commands/commands-list/genshin/teapot.md
   - Dashboard:
     - dashboard/introduction.md
     - Pages:
       - Sections:
-        - dashboard/pages/sections/profile.md
-        - dashboard/pages/sections/anime-lists.md
-        - dashboard/pages/sections/manga-lists.md
+        - Profile: dashboard/pages/sections/profile.md
+        - Anime Lists: dashboard/pages/sections/anime-lists.md
+        - Manga Lists: dashboard/pages/sections/manga-lists.md
       - Game Integrations:
-        - dashboard/pages/game-integrations/genshin.md
+        - Genshin Integration: dashboard/pages/game-integrations/genshin.md
       - Settings:
         - Commands:
-          - dashboard/pages/settings/commands/gpt.md
-        - dashboard/pages/settings/language.md
-        - dashboard/pages/settings/nsfw-content.md
-        - dashboard/pages/settings/for-developers.md
+          - GPT: dashboard/pages/settings/commands/gpt.md
+        - Language: dashboard/pages/settings/language.md
+        - NSFW Content: dashboard/pages/settings/nsfw-content.md
+        - For Developers: dashboard/pages/settings/for-developers.md
   - API:
     - api/genshin-images.md
 

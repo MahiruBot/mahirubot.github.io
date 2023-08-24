@@ -1,11 +1,12 @@
 ---
+title: «Mangalist» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# Mangalist
+# «Mangalist» command
 
 View your or someone's list of planned/read/favorites manga.
 

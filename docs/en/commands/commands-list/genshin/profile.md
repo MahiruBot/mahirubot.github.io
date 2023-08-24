@@ -1,4 +1,5 @@
 ---
+title: «Genshin Profile» command
 tags:
   - Command
   - Inline command
@@ -7,7 +8,7 @@ tags:
   - Version 1.0.0
 ---
 
-# Profile
+# «Genshin Profile» command
 
 View your or someone's Genshin profile.
 

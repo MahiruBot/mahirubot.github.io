@@ -12,6 +12,25 @@ body[data-md-color-scheme="default"] .md-header,
 body[data-md-color-scheme="default"] .md-tabs {
     background-color: rgba(228, 162, 131, 0.65);
 }
+body[data-md-color-scheme="slate"] .md-footer,
+body[data-md-color-scheme="slate"] .md-footer__inner:not([hidden]) 
+{
+    background-color: #292929;
+}
+body[data-md-color-scheme="default"] .md-footer,
+body[data-md-color-scheme="default"] .md-footer__inner:not([hidden]) 
+{
+    background-color: #f5f5f5;
+}
+body[data-md-color-scheme="default"] footer .md-footer__direction {
+    color: #1d1d1d;
+}
+body[data-md-color-scheme="default"] footer .md-ellipsis {
+    color: #000000de;
+}
+body[data-md-color-scheme="default"] footer .md-icon svg {
+    color: #959595;
+}
 .md-header, .md-tabs {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);

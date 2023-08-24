@@ -1,11 +1,12 @@
 ---
+title: «GIF» command
 tags:
   - Command
   - Inline command
   - Version 1.0.0
 ---
 
-# GIF
+# «GIF» command
 
 Send GIF of certain category to the chat where the command was used.
 

@@ -1,4 +1,5 @@
 ---
+title: «Genshin Abyss» command
 tags:
   - Command
   - Inline command
@@ -7,7 +8,7 @@ tags:
   - Version 1.0.0
 ---
 
-# Abyss
+# «Genshin Abyss» command
 
 View your or someone's Spiral Abyss statistics.
 

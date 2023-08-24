@@ -1,4 +1,5 @@
 ---
+title: «Genshin Characters» command
 tags:
   - Command
   - Inline command
@@ -7,7 +8,7 @@ tags:
   - Version 1.0.0
 ---
 
-# Characters
+# «Genshin Characters» command
 
 View your or someone's characters.
 
