@@ -66,7 +66,7 @@ https://mahiru.one/g/{userId}/{method}?language=en&theme=dark
 
 ???+ Danger "Warning"
 
-    You must not neither share URLs containing your `authkey` with anyone nor upload images using these URLs. Everyone who has your `authkey` may have unexpected access to your data stored by Mahiru. If you accidentally leaked your `authkey`, please contact us in our [Support Group](https://t.me/MahiruCommunity) in order to reset it as soon as possible.
+    You must not neither share URLs containing your `authkey` with anyone nor upload images using these URLs. Everyone who has your `authkey` may have unexpected access to your data stored by Mahiru. If you accidentally leaked your `authkey`, please contact us in our [Support Group](https://mahiru.one/community) in order to reset it as soon as possible.
 
 If you want to prevent other users from accessing your images, you can do this by disabling [«Display to others»](../dashboard/pages/game-integrations/genshin.md#display-to-others) for methods you do not want to share. (1)
 { .annotate }

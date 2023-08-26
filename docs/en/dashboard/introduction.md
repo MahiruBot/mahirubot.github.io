@@ -4,11 +4,11 @@ Mahiru provides you with a convenient and feature-rich web dashboard which you c
 
 ## How to open your dashboard
 
-In order to view your dashboard, go to your chat with Mahiru in Telegram app, then and click on **«Dashboard»** button near your input field. If this button is not present or you get any errors when launching it, try restarting the bot. If restart did not help, let us know in our [Telegram Group](https://t.me/MahiruCommunity).
+In order to view your dashboard, go to your chat with Mahiru in Telegram app, then and click on **«Dashboard»** button near your input field. If this button is not present or you get any errors when launching it, try restarting the bot. If restart did not help, let us know in our [Telegram Group](https://mahiru.one/community).
 
 ## Bugs during Dashboard usage
 
-Bugs inside a dashboard are extremely hard to track. That's why if you have encouraged anything that seems not right for you during dashboard usage, please report it to our [Telegram Group](https://t.me/MahiruCommunity) as soon as possible.
+Bugs inside a dashboard are extremely hard to track. That's why if you have encouraged anything that seems not right for you during dashboard usage, please report it to our [Telegram Group](https://mahiru.one/community) as soon as possible.
 
 ## Your data security
 

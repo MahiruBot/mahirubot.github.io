@@ -10,33 +10,34 @@
 
 ### Обычные команды
 
-| Команда     | Встроенная версия | Ограничения и особенности                                                                                    |
-| ----------- | ----------------- | ------------------------------------------------------------------------------------------------------------ |
-| `anime`     | :material-check:  | -                                                                                                            |
-| `animelist` | :material-check:  | -                                                                                                            |
-| `end`       | :material-close:  | -                                                                                                            |
-| `game`      | :material-check:  | -                                                                                                            |
-| `gif`       | :material-check:  | Махиру запомнит гифки, которые вы используете чаще всего, и в следующий раз, когда вы воспользуетесь этой командой, они появятся вверху.   |
-| `gpt`       | :material-check:  | Беседы не поддерживаются.                                                                                    |
-| `help`      | :material-check:  | -                                                                                                            |
-| `imgtotext` | :material-check:  | Нет возможности загрузить файл. Только ссылка на изображение.                                                |
-| `manga`     | :material-check:  | -                                                                                                            |
-| `mangalist` | :material-check:  | -                                                                                                            |
-| `nsfw`      | :material-check:  | Махиру запомнит изображения, которые вы используете чаще всего, и в следующий раз, когда вы воспользуетесь данной командой, они появятся вверху. |
-| `song`      | :material-check:  | Кнопка **Видео** отсутствует.                                                                                |
-| `video`     | :material-check:  | -                                                                                                            |
-| `waifu`     | :material-check:  | -                                                                                                            |
-| `waifunsfw` | :material-check:  | -                                                                                                            |
+| Команда                                            | Встроенная версия | Ограничения и особенности                                                                                       |
+| -------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------ |
+| [`anime`](./commands-list/common/anime.md)         | :material-check:  | -                                                                                                            |
+| [`animelist`](./commands-list/common/animelist.md) | :material-check:  | -                                                                                                            |
+| [`end`](./commands-list/common/end.md)             | :material-close:  | -                                                                                                            |
+| [`game`](./commands-list/common/game.md)           | :material-check:  | -                                                                                                            |
+| [`gif`](./commands-list/common/gif.md)             | :material-check:  | Махиру запомнит гифки, которые вы используете чаще всего, и в следующий раз, когда вы воспользуетесь этой командой, они появятся вверху.   |
+| [`gpt`](./commands-list/common/gpt.md)             | :material-check:  | Диалог не поддерживается.                                                                             |
+| [`help`](./commands-list/common/help.md)           | :material-check:  | -                                                                                                            |
+| [`imgtotext`](./commands-list/common/imgtotext.md) | :material-check:  | Нет возможности загрузить файл. Только ссылка на изображение.                                                          |
+| [`manga`](./commands-list/common/manga.md)         | :material-check:  | -                                                                                                            |
+| [`mangalist`](./commands-list/common/mangalist.md) | :material-check:  | -                                                                                                            |
+| [`nsfw`](./commands-list/common/nsfw.md)           | :material-check:  | Махиру запомнит изображения, которые вы используете чаще всего, и в следующий раз, когда вы воспользуетесь данной командой, они появятся вверху. |
+| [`song`](./commands-list/common/song.md)           | :material-check:  | Кнопка **Видео** отсутствует.                                                                            |
+| [`video`](./commands-list/common/video.md)         | :material-check:  | -                                                                                                            |
+| [`waifu`](./commands-list/common/waifu.md)         | :material-check:  | -                                                                                                            |
+| [`waifunsfw`](./commands-list/common/waifunsfw.md) | :material-check:  | -                                                                                                            |
 
 ### Геншин команды
 
-| Команда       | Встроенная версия | Ограничения и особенности                               |
-| ------------- | ----------------- | ------------------------------------------------------- |
-| `abyss`       | :material-check:  | -                                                       |
-| `check`       | :material-check:  | -                                                       |
-| `exploration` | :material-check:  | -                                                       |
-| `notes`       | :material-check:  | -                                                       |
-| `profile`     | :material-check:  | -                                                       |
-| `redeem`      | :material-check:  | -                                                       |
-| `tcg`         | :material-check:  | -                                                       |
-| `teapot`      | :material-check:  | -                                                       |
+| Команда                                                         | Встроенная версия | Ограничения и особенности                               |
+| --------------------------------------------------------------- | ----------------- | ------------------------------------------------------- |
+| [`genshin_abyss`](./commands-list/genshin/abyss.md)             | :material-check:  | -                                                       |
+| [`genshin_check`](./commands-list/genshin/check.md)             | :material-check:  | -                                                       |
+| [`genshin_exploration`](./commands-list/genshin/exploration.md) | :material-check:  | -                                                       |
+| [`genshin_characters`](./commands-list/genshin/characters.md)   | :material-check:  | -                                                       |
+| [`genshin_notes`](./commands-list/genshin/notes.md)             | :material-check:  | -                                                       |
+| [`genshin_profile`](./commands-list/genshin/profile.md)         | :material-check:  | -                                                       |
+| [`genshin_redeem`](./commands-list/genshin/redeem.md)           | :material-check:  | -                                                       |
+| [`genshin_tcg`](./commands-list/genshin/tcg.md)                 | :material-check:  | -                                                       |
+| [`genshin_teapot`](./commands-list/genshin/teapot.md)           | :material-check:  | -                                                       |
