@@ -4,7 +4,7 @@ description: "Documentation for Mahiru - your cute Telegram helper!"
 
 # Home
 
-![](assets/logo2.png)
+![](assets/logo-large.png)
 
 Hello and welcome! We're thrilled to have you here. Within these pages, you'll uncover answers to commonly asked questions, delve into the intricacies of Mahiru's impressive tricks and features, and if you're new to Telegram, you've landed in just the right spot to kickstart your journey with bots. Thank you for selecting Mahiru - your ultimate choice!
 
