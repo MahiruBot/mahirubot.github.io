@@ -1,4 +1,4 @@
-![](/docs/assets/logo2.png)
+![](/docs/assets/logo-large.png)
 
 # Documentation
 
