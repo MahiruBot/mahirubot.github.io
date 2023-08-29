@@ -25,13 +25,14 @@ tags:
 ### Аргументы
 
 **url, u**  `ссылка` — Ссылка на видео, которое вы хотите отправить.
+
 **description, d** `строка (опционально)` — Ваше описание к видео.
 
 ### Примеры
 
 #### Обычная команда
 + `/video https://youtube.com/watch?v=GFG4o32NzRc`
-+ `/video --u: https://youtu.be/mgh07DuvAWM --description: Зацени какой крутой эдит нашёл`
++ `/video --u: https://youtu.be/mgh07DuvAWM --description: Зацени, какой крутой эдит нашёл!`
 
 #### Встроенная команда
 + `@MahiruShiinaBot video: https://youtu.be/uKxyLmbOc0Q`

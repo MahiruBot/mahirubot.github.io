@@ -16,7 +16,7 @@ View your or someone's Spiral Abyss statistics.
 
 **user, u**  `mention (optional)` — User whose statistics you want to view. Leave empty to view your statistics.
 
-**schedule, s** `Literal[current, previous]` — Whether you wan to view statistics for `current` _(default)_ or `previous` schedule.
+**schedule, s** `Literal[current, previous] (optional)` — Whether you wan to view statistics for `current` _(default)_ or `previous` schedule.
 
 ### Examples
 

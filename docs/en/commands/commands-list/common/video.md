@@ -25,6 +25,7 @@ Currently, supported platforms are:
 ### Arguments
 
 **url, u**  `url` — Url to the video you want to send.
+
 **description, d** `string (optional)` — Description to send with the video.
 
 ### Examples

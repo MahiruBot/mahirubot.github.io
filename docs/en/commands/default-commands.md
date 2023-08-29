@@ -22,16 +22,15 @@ Most commands have at least one argument, some commands can not be executed with
 
 Every argument has it's own type. This means you can't, for example, use string if type of the argument is number.
 
-| Type        | Description                                             | Example values        |
-| ----------- | ------------------------------------------------------- | --------------------- |
-| `string`    | String containing letters, characters, numbers etc.     | `Hello world!`        |
-| `number`    | Any integer or float number.                            | `234`, `-0.5`         |
-| `boolean`   | `True` or `False`. Short forms `t` and `f` can be used. | `true`, `f`           |
-| `mention`   | Mention of the user. They must have used Mahiru before. | `@jokelbaf`           |
-| `url`       | Any HTTPS url matching the purpose of the command.      | `https://example.com` |
+| Type        | Description                                             | Example values          |
+| ----------- | ------------------------------------------------------- | ----------------------- |
+| `string`    | String containing letters, characters, numbers etc.     | `Hello world!`          |
+| `number`    | Any integer or float number.                            | `234`, `-0.5`           |
+| `boolean`   | `True` or `False`. Short forms `t` and `f` can be used. | `true`, `f`             |
+| `mention`   | Mention of the user. They must have used Mahiru before. | `@jokelbaf`             |
+| `url`       | Any HTTPS url matching the purpose of the command.      | `https://example.com`   |
+| `Literal`   | Fixed list of allowed values for the argument.          | `gpt-3.5-turbo`, `neko` |
 
-At times, specific ranges of numbers are permissible. In such instances, you'll encounter entries like `[-1, 2]` under the **Expected Value** column. This indicates that any number within the range of `-1` to `2`, inclusive of both `-1` and `2`, is acceptable.
+At times, specific ranges of numbers are permissible. In such instances, you'll encounter entries like `[-1, 2]` instead of the actual type. This indicates that any number within the range of `-1` to `2`, inclusive of both `-1` and `2`, is acceptable.
 
-Literal strings are also included within argument types. If a string is treated as literal, you'll notice a small number adjacent to its type, e.g., `string¹`. In such cases, refer to the explanation beneath the argument table for comprehensive details regarding the anticipated values for that argument.
-
-If you encounter a `?` next to an argument's name in the arguments table, it indicates that the argument is optional. This allows the command to be executed successfully even if you choose not to pass this particular argument.
+If you see `(optional)` near the argument type, the argument is not a required one. This allows the command to be executed successfully even if you choose not to pass this particular argument.
