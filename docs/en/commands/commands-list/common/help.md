@@ -14,6 +14,8 @@ View info about any command that Mahiru has.
 
 **command, c**  `string (optional)` — Command you need help with. If not passed, general info about Mahiru will be displayed.
 
+**inline,i**  `boolean (optional)` — Whether you want to view info about inline or slash command.
+
 ### Examples
 
 #### Default
