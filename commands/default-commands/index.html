@@ -1800,18 +1800,22 @@ autofill the chosen command.</p>
 <td>Any HTTPS url matching the purpose of the command.</td>
 <td><code>https://example.com</code></td>
 </tr>
+<tr>
+<td><code>Literal</code></td>
+<td>Fixed list of allowed values for the argument.</td>
+<td><code>gpt-3.5-turbo</code>, <code>neko</code></td>
+</tr>
 </tbody>
 </table>
-<p>At times, specific ranges of numbers are permissible. In such instances, you'll encounter entries like <code>[-1, 2]</code> under the <strong>Expected Value</strong> column. This indicates that any number within the range of <code>-1</code> to <code>2</code>, inclusive of both <code>-1</code> and <code>2</code>, is acceptable.</p>
-<p>Literal strings are also included within argument types. If a string is treated as literal, you'll notice a small number adjacent to its type, e.g., <code>string¹</code>. In such cases, refer to the explanation beneath the argument table for comprehensive details regarding the anticipated values for that argument.</p>
-<p>If you encounter a <code>?</code> next to an argument's name in the arguments table, it indicates that the argument is optional. This allows the command to be executed successfully even if you choose not to pass this particular argument.</p>
+<p>At times, specific ranges of numbers are permissible. In such instances, you'll encounter entries like <code>[-1, 2]</code> instead of the actual type. This indicates that any number within the range of <code>-1</code> to <code>2</code>, inclusive of both <code>-1</code> and <code>2</code>, is acceptable.</p>
+<p>If you see <code>(optional)</code> near the argument type, the argument is not a required one. This allows the command to be executed successfully even if you choose not to pass this particular argument.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 22, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 29, 2023</span>
       
         <br>
         Created:
