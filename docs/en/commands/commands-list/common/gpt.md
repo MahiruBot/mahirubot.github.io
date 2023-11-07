@@ -14,13 +14,9 @@ Ask ChatGPT a question or even make a conversation with one of the most popular 
 
 | Model Name       | Max Tokens | Price per 1000 tokens                           | Supports Conversation | Recommended           |
 | ---------------- | ---------- | ----------------------------------------------- | --------------------- | --------------------- |
+| gpt-4[^1]        | 8000       | USD 0.03 (prompt)<br> USD 0.06 (completion)     | :material-check: Yes  | :material-check: Yes  |
 | gpt-3.5-turbo    | 4000       | USD 0.0015 (prompt)<br> USD 0.0020 (completion) | :material-check: Yes  | :material-check: Yes  |
 | text-davinci-003 | 4000       | USD 0.0200                                      | :material-close: No   | :material-close: No   |
-| text-curie-001   | 2048       | USD 0.0020                                      | :material-close: No   | :material-close: No   |
-| text-babbage-001 | 2048       | USD 0.0005                                      | :material-close: No   | :material-close: No   |
-| text-ada-001     | 2048       | USD 0.0004                                      | :material-close: No   | :material-close: No   |
-| code-davinci-003 | 8000       | -                                               | :material-close: No   | :material-close: No   |
-| code-cushman-001 | 2048       | -                                               | :material-close: No   | :material-close: No   |
 
 ### Arguments
 
@@ -56,4 +52,6 @@ Ask ChatGPT a question or even make a conversation with one of the most popular 
 #### Inline
 + `@MahiruShiinaBot gpt: Tell me about the anime called "Classroom of Elite".`
 + `@MahiruShiinaBot gpt: --msg: Write me a SQL SELECT query. --s: true`
-+ `@MahiruShiinaBot gpt: --msg: Give me a recipe of a pancake. --model: text-davinci-003`
++ `@MahiruShiinaBot gpt: --msg: Give me a recipe of a pancake. --model: gpt-4`
+
+[^1]: GPT-4 Is not available for free public use yet. In order to use it you must set you own [API Key](../../../dashboard/pages/settings/commands/gpt.md#api-key) which supports GPT-4.
