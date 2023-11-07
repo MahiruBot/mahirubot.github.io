@@ -14,13 +14,9 @@ tags:
 
 | Название модели  | Макс. токенов | Цена за 1000 токенов                       | Поддержка беседы      | Рекомендована         |
 | ---------------- | ------------- | -------------------------------------------| --------------------- | --------------------- |
+| gpt-4[^1]        | 8000          | USD 0.03 (запрос)<br> USD 0.06 (ответ)     | :material-check: Да   | :material-check: Нет  |
 | gpt-3.5-turbo    | 4000          | USD 0.0015 (запрос)<br> USD 0.0020 (ответ) | :material-check: Да   | :material-check: Да   |
 | text-davinci-003 | 4000          | USD 0.0200                                 | :material-close: Нет  | :material-close: Нет  |
-| text-curie-001   | 2048          | USD 0.0020                                 | :material-close: Нет  | :material-close: Нет  |
-| text-babbage-001 | 2048          | USD 0.0005                                 | :material-close: Нет  | :material-close: Нет  |
-| text-ada-001     | 2048          | USD 0.0004                                 | :material-close: Нет  | :material-close: Нет  |
-| code-davinci-003 | 8000          | -                                          | :material-close: Нет  | :material-close: Нет  |
-| code-cushman-001 | 2048          | -                                          | :material-close: Нет  | :material-close: Нет  |
 
 ### Аргументы
 
@@ -56,4 +52,6 @@ tags:
 #### Встроенная команда
 + `@MahiruShiinaBot gpt: Расскажи мне об аниме "Класс превосходства".`
 + `@MahiruShiinaBot gpt: --msg: Напиши мне любой SQL запрос. --s: true`
-+ `@MahiruShiinaBot gpt: --msg: Дай мне рецепт тыквенного пирога. --model: text-davinci-003`
++ `@MahiruShiinaBot gpt: --msg: Дай мне рецепт тыквенного пирога. --model: gpt-4`
+
+[^1]: Модель GPT-4 пока не доступна всем пользователям. Для её использования вам необходимо указать собственный [АПИ Ключ](../../../dashboard/pages/settings/commands/gpt.md#api-key) с доступом к GPT-4.
